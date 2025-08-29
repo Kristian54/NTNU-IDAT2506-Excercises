@@ -17,10 +17,13 @@ class RandomValueActivity : Activity() {
         super.onStart()
         val min = intent.getIntExtra("min", 0)
         val max = intent.getIntExtra("max", 100)
-        val random = generateRandomValue(min, max)
-        showRandomValueToast(random)
+        val randomOne = generateRandomValue(min, max)
+        val randomTwo = generateRandomValue(min, max)
+
+        //showRandomValueToast(random)
         val resultIntent = Intent()
-        resultIntent.putExtra("randomValue", random)
+        resultIntent.putExtra("randomValueOne", randomOne)
+        resultIntent.putExtra("randomValueTwo", randomTwo)
         setResult(RESULT_OK, resultIntent)
         finish()
     }
