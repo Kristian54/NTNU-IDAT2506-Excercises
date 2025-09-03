@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Friend Register</string>
+    <string name="register_new_friend">Register new friend!</string>
+    <string name="edit">Edit</string>
+    <string name="name">Name</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="adder">Add</string>
+    <string name="save">Save</string>
+</resources>
