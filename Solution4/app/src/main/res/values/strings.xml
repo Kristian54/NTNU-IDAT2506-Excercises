@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="book1">Book</string>
+    <string name="book2">Book2</string>
+    <string name="book3">Book3</string>
+    <string name="book4">Book4</string>
+    <string name="book5">Book5</string>
+    <string name="book6">Book6</string>
+    <string name="bookcover">Book Cover</string>
+</resources>

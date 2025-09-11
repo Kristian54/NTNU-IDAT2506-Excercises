@@ -1,3 +1,5 @@
 package com.example.myapplication
 
-data class Friend(val name: String, val birthdate: String)
+import java.io.Serializable
+
+data class Friend(var name: String, var birthdate: String) : Serializable
