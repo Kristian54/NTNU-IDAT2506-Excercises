@@ -31,5 +31,4 @@ class FriendAdapter (
     override fun getItemCount(): Int {
         return friends.size
     }
-
 }
