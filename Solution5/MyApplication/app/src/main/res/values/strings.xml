@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="name">Name:</string>
+    <string name="card_number">Card Number:</string>
+    <string name="guess">Guess:</string>
+    <string name="response">Response:</string>
+    <string name="initial_prompt">Please send your details and make a guess</string>
+    <string name="sendInfo">Send Info</string>
+    <string name="makeGuess">Make Guess</string>
+</resources>
