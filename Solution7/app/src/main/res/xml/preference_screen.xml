@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        app:defaultValue="@string/background_color_white"
+        app:entries="@array/background_entries"
+        app:entryValues="@array/background_values"
+        android:key="background_color"
+        android:title="@string/background_color"
+        app:useSimpleSummaryProvider="true"/>
+</androidx.preference.PreferenceScreen>
